@@ -1181,3 +1181,4 @@ P_Ids = (P_Ids_0to50 + P_Ids_50to100 + P_Ids_100to150 + P_Ids_150to200 + P_Ids_2
 
 # Remove duplicate product ids
 print(list(set(P_Ids)))
+print(f'The number was reduced from {len(P_Ids)} --[to]--> {len(list(set(P_Ids)))} .')
